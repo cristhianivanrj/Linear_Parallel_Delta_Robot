@@ -1,5 +1,4 @@
-# linear-paralle--delta-robot
-kinematic control
+# Parallel_linear_delta_robot
 Contains the files used to calculate the optimal dimensions of the linear delta parallel robot
 
 1). To perform the optimization calculation it is necessary to execute the file "Run_optimize.m" and modify the following variables according to the requirement.
@@ -40,3 +39,4 @@ Penal=100;%
 
 
 3). . Run "Graph_Respuest.m" to get the graphical response
+
