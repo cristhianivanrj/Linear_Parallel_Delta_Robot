@@ -1,11 +1,12 @@
 % Graph response
 clc
 load Data.txt;
-figure(5)
+figure(10)
 % Graph response: R_b
 [X,Y,Z] = sphere(16);
 z = Data(:,2);
 x = Data(:,1);
+x_min=min(x); %The best function value found 
 Filas=size(Data);
 inter=(1:1:Filas);
 y=inter; % Number of Interactions
